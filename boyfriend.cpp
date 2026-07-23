@@ -27,11 +27,10 @@ int bf(bool liv, std::string input, short index = 0, bool inner=0) {
             std::cout << arr[index]; 
         } 
         else if (input==",") {          
-            uint8_t n; 
             std::string n2; 
             std::cout << "Input At " << index << ": "; 
             std::cin >> n2; 
-            n = std::stoi(n2); 
+            arr[index] = (uint8_t) std::stoi(n2); 
         } 
         else if (input=="[") {  
             std::string nin; 
