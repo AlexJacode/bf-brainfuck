@@ -52,8 +52,8 @@ int bf(bool liv, std::string input, short index = 0, bool inner=0) {
 
 int main(int argc, char *argv[]) { 
     std::cout << "Beginning Boyfriend Brainfuck \n"; 
-    if (argc>1) { bf(1, ""); return 0; } 
-    bf(0, ""); 
+    if (argc>1) { bf(0, ""); return 0; } 
+    bf(1, ""); 
     return 0; 
 } 
 
