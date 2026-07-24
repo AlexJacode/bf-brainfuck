@@ -5,8 +5,8 @@
 Run `g++ -o boyfriend boyfriend.cpp`
 
 ### Usage (Live Interpreter) 
-`./boyfriend s` 
+`./boyfriend` 
 
 ### Usage (File Input) -- Coming Soon 
-`./boyfriend` 
+`./boyfriend file.bf` 
 
